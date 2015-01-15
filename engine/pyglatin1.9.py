@@ -36,6 +36,8 @@ while True:
     elif len(original) > 0 and original[0].isalpha():
         # checks to see if the word is there and *only contains letters* (cant figure this one out, hence the 1.9)
         print(final_sent)
+    elif text == "who is the best?":
+        print ("Clayton is the best")
     # eureka
     else:
         print("Not acceptable")
